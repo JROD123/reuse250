@@ -33,12 +33,13 @@ text-decoration: none;
   align-items: center;
   border:0px solid #ddd;
   height:55px;
-  line-height:50px;
+  line-height:51px;
   font-size:49px;
   text-transform:uppercase;
   overflow:hidden;
   display:inline-block;
   margin-left: 66px;
+  margin-bottom: -22px;
   letter-spacing: 2px;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
@@ -85,4 +86,12 @@ text-decoration: none;
   font-size: 19px;
   letter-spacing: 2px;
   color: purple;
+}
+
+
+@media screen and (min-width: 950px) {
+  .inner{
+    margin-bottom: -21px;
+    line-height: 51px;
+  }
 }
